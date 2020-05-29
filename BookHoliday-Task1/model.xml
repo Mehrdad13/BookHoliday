@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<featureModel>
+	<properties>
+		<graphics key="showhiddenfeatures" value="true"/>
+		<graphics key="legendautolayout" value="true"/>
+		<graphics key="showshortnames" value="false"/>
+		<graphics key="layout" value="horizontal"/>
+		<graphics key="showcollapsedconstraints" value="true"/>
+		<graphics key="legendhidden" value="false"/>
+		<graphics key="layoutalgorithm" value="1"/>
+	</properties>
+	<struct>
+	
+		<or abstract="true" mandatory="true" name="bookHoliday">
+			<or name="BookFlight">
+				<description>suchen nach den Flugticket dann buchen passende Ticekt</description>
+				<feature name="SearchFlight">
+					<description>
+						1.Startsite wird gezeigt&#13;
+						2.Der Benutzer sucht nach einen Ticket von ... nach ... mit&#13;
+					</description>
+				</feature>
+				<feature name="ReserveTicket">
+					<description>der Benutzer bucht passende Ticket</description>
+				</feature>
+				<feature name="RegisterUser">
+					<description>vor der Ticketsbeschtätigung soll Der Benutzer sich selbst anmelden</description>
+				</feature>
+				<and name="Payment">
+					<description>nach dem Tickensbuchen muss der Benutzer mit Kreditkare oder paypal dafür bezahlen.</description>
+					<feature name="ValidateCreditCard"/>
+					<alt mandatory="true" name="Security">
+						<feature name="Highsec"/>
+						<feature name="Lowsec"/>
+					</alt>
+				</and>
+			</or>
+			<or name="BookHotel">
+				<description>der Benutzer sucht nach den Zimmer dann buchen passendes Zimmer</description>
+				<feature name="SearchHotel">
+					<description>Der Benutzer sucht nach einen Zimmer in Zielstadt</description>
+				</feature>
+				<feature name="ReserveRoom">
+					<description>der Benutzer bucht passendes Zimmer</description>
+				</feature>
+			</or>
+			<and name="AddService">
+				<description>Rent Auto oder buchen verschidene Activity</description>
+				<and name="RentCar">
+					<description>
+						&#13;
+						Der Benutzer mietet ein Auto
+					</description>
+					<feature name="SearchCar">
+						<description>
+							Der Benutzer suche nach dem Auto&#13;
+						</description>
+					</feature>
+					<feature name="DoRentCar">
+						<description>passendes Auto wird gemietet</description>
+					</feature>
+				</and>
+				<feature name="Insurance">
+					<description>die Versiescherung wird hinzugefügt</description>
+				</feature>
+				<feature name="BookEntertaiment"/>
+			</and>
+			<and name="ReservationManagemen">
+				<feature name="Delete"/>
+				<feature name="Add"/>
+				<feature name="Modify"/>
+			</and>
+		</or>
+	</struct>
+</featureModel>
