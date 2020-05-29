@@ -6,12 +6,12 @@
 	<feature manual="selected" name="ReserveTicket"/>
 	<feature manual="selected" name="RegisterUser"/>
 	<feature automatic="selected" name="Payment"/>
-	<feature manual="selected" name="ValidateCreditCard"/>
+	<feature name="ValidateCreditCard"/>
 	<feature automatic="selected" manual="selected" name="Security"/>
 	<feature automatic="unselected" name="Highsec"/>
 	<feature manual="selected" name="Lowsec"/>
-	<feature automatic="selected" manual="selected" name="BookHotel"/>
-	<feature manual="selected" name="SearchHotel"/>
+	<feature name="BookHotel"/>
+	<feature name="SearchHotel"/>
 	<feature name="ReserveRoom"/>
 	<feature name="AddService"/>
 	<feature name="RentCar"/>
