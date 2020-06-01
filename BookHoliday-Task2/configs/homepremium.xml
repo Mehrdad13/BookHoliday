@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <configuration>
-	<feature name="bookHoliday"/>
-	<feature name="BookFlight"/>
-	<feature name="SearchFlight"/>
-	<feature name="ReserveTicket"/>
-	<feature name="RegisterUser"/>
-	<feature name="Payment"/>
+	<feature automatic="selected" name="bookHoliday"/>
+	<feature automatic="selected" manual="selected" name="BookFlight"/>
+	<feature manual="selected" name="SearchFlight"/>
+	<feature manual="selected" name="ReserveTicket"/>
+	<feature manual="selected" name="RegisterUser"/>
+	<feature automatic="selected" name="Payment"/>
 	<feature name="ValidateCreditCard"/>
-	<feature name="Security"/>
-	<feature name="Highsec"/>
-	<feature name="Lowsec"/>
+	<feature automatic="selected" manual="selected" name="Security"/>
+	<feature manual="selected" name="Highsec"/>
+	<feature automatic="unselected" name="Lowsec"/>
 	<feature name="BookHotel"/>
 	<feature name="SearchHotel"/>
 	<feature name="ReserveRoom"/>
