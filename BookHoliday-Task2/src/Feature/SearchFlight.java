@@ -24,18 +24,18 @@ public class SearchFlight {
 		System.out.println("Hinreise: dd-MMM-yyyy");
 		String Hinreise=in.nextLine();
 		System.out.println("Rückreise: dd-MMM-yyyy");
-		String Rückreise= in.nextLine();
+		String Reuckreise= in.nextLine();
 		
 		System.out.println("Reisende:");
 		String Reisende= in.nextLine();
 	
 		
 		
-		Serach(Von,Nach,Hinreise,Rückreise,Reisende);
+		Serach(Von,Nach,Hinreise,Reuckreise,Reisende);
 		
 	}
 	
-	private  void Serach (String von, String nach, String hinreise, String rückreise, String reisende){
+	private  void Serach (String von, String nach, String hinreise, String reuckreise, String reisende){
 		
 		System.out.println("Wegen Pandemie gibt es Kein Flüg von " + von + " Nach " + nach);
 	}
