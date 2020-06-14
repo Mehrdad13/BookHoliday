@@ -40,6 +40,7 @@ public class SearchFlight extends JFrame implements ActionListener {
 	private JButton sub;
 	private JButton reset;
 	private JButton RegisterUser;
+	private JButton SHotel;
 	private JTextArea tout;
 	private JLabel res;
 	private JTextArea resadd;
@@ -185,10 +186,17 @@ public class SearchFlight extends JFrame implements ActionListener {
 		
 		RegisterUser = new JButton("Register");
 		RegisterUser.setFont(new Font("Arial", Font.PLAIN, 15));
-		RegisterUser.setSize(100, 20);
+		RegisterUser.setSize(120, 20);
 		RegisterUser.setLocation(650, 50);
 		RegisterUser.addActionListener(this);
 		c.add(RegisterUser);
+		
+		SHotel = new JButton("Serach Hotel");
+		SHotel.setFont(new Font("Arial", Font.PLAIN, 15));
+		SHotel.setSize(120, 20);
+		SHotel.setLocation(500, 50);
+		SHotel.addActionListener(this);
+		c.add(SHotel);
 
 		tout = new JTextArea();
 		tout.setFont(new Font("Arial", Font.PLAIN, 15));
@@ -263,6 +271,15 @@ public class SearchFlight extends JFrame implements ActionListener {
 				
 			
 			
+		} else if(e.getSource()==SHotel) {
+			//#if SearchHotel
+
+			new SerachHotel();
+		   //#elif !SearchHotel
+//@			
+//@			res.setText("no access to Search Hotel");
+//@			
+		   //#endif
 		}
 		
 	}
