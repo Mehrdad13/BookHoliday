@@ -216,7 +216,7 @@ public class SearchFlight extends JFrame implements ActionListener {
 
 	// method actionPerformed()
 	// to get the action performed
-	// by the user and act accordingly
+	
 	public void actionPerformed(ActionEvent e) {
 		if (e.getSource() == sub) {
 			if (term.isSelected()) {
