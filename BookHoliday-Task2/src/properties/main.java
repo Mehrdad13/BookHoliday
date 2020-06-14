@@ -10,11 +10,11 @@ public class main {
 	 
 		System.out.println("Welcome to Book Holiday System");
 		
-		if(PropertyManager.getProperty("RegisterUser")){
-			
-			MyFrame registerUser= new MyFrame();
-			
-		}
+//		if(PropertyManager.getProperty("RegisterUser")){
+//			
+//			MyFrame registerUser= new MyFrame();
+//			
+//		}
 		if (PropertyManager.getProperty("BookFlight")) {
 			
 			SearchFlight sf= new SearchFlight();
