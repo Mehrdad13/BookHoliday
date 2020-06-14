@@ -1,22 +1,19 @@
 package Feature;
-import properties.PropertyManager;
 import Feature.MyFrame;
-
 import java.awt.Container;
 import java.awt.Font;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-
-import javax.swing.ButtonGroup;
 import javax.swing.JButton;
 import javax.swing.JCheckBox;
 import javax.swing.JComboBox;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
-
 import javax.swing.JTextArea;
 import javax.swing.JTextField;
+
+import properties.PropertyManager;
 
 public class SearchFlight extends JFrame implements ActionListener {
 
@@ -190,7 +187,7 @@ public class SearchFlight extends JFrame implements ActionListener {
 		RegisterUser.setFont(new Font("Arial", Font.PLAIN, 15));
 		RegisterUser.setSize(100, 20);
 		RegisterUser.setLocation(650, 50);
-		//RegisterUser.addActionListener(this);
+		RegisterUser.addActionListener(this);
 		c.add(RegisterUser);
 
 		tout = new JTextArea();
@@ -238,7 +235,7 @@ public class SearchFlight extends JFrame implements ActionListener {
 				 String data3 = "Passemgers : " + passenger.getSelectedItem();
 				tout.setText(data + data2 + data3);
 				tout.setEditable(false);
-				res.setText("Because of pandemic there is no flight from " + tfrom.getText() + " To " + tto.getText());
+				res.setText("Due to pandemic, there is no flight From" + tfrom.getText() + " To " + tto.getText());
 			} else {
 				tout.setText("");
 				resadd.setText("");
@@ -259,12 +256,12 @@ public class SearchFlight extends JFrame implements ActionListener {
 			year.setSelectedIndex(0);
 			resadd.setText(def);
 		} else if(e.getSource()==RegisterUser) {
-			if(PropertyManager.getProperty("RegisterUser")){
-				
-				MyFrame register= new MyFrame();
-				register.actionPerformed(e);
-				
-			}
+			
+			this.setVisible(false);
+				new MyFrame();
+//				dispose();
+//				System.exit(0);
+			
 			
 		}
 		
