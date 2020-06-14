@@ -272,9 +272,14 @@ public class SearchFlight extends JFrame implements ActionListener {
 			
 			
 		} else if(e.getSource()==SHotel) {
+			
+			
+			
 			//#if SearchHotel
-
+			this.setVisible(false);
+			dispose();
 			new SerachHotel();
+	 
 		   //#elif !SearchHotel
 //@			
 //@			res.setText("no access to Search Hotel");

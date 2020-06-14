@@ -2,7 +2,8 @@ package Feature;
 import java.util.Scanner;
 public class SerachHotel {
 
-
+	int numberOfGuests;
+	int numberOfNights;
     private static Scanner aScanner;
     public SerachHotel() {
 		// TODO Auto-generated constructor stub
@@ -10,9 +11,9 @@ public class SerachHotel {
         System.out.println("SerachHotel");
         Scanner aScanner = new Scanner(System.in);
         System.out.println("To begin, please indicate how many people will be staying. ");
-        int numberOfGuests = aScanner.nextInt();
+        numberOfGuests = aScanner.nextInt();
         System.out.println("Thank you. Now please tell us how long you plan on staying at our fine resort. ");
-        int numberOfNights = aScanner.nextInt();
+        numberOfNights = aScanner.nextInt();
         int singleRoom = numberOfGuests * 95 * numberOfNights;
         int doubleRoom = numberOfGuests * 80 * numberOfNights;
         int supplementalSingle = numberOfGuests * 65;
@@ -30,14 +31,22 @@ public class SerachHotel {
                                           numberOfNights + " nights, it will cost " + "€"   );
         }
         
+        
+        
         //#if ReserveRoom
-        System.out.println("room has been booked.");
+      
+        ReserveTicket rt=new ReserveTicket();
         //#elif !ReserveRoom
 //@        System.out.println("no access to Book Room");
         //#endif
         
       
     }
- 
- 
+  
+    public int getNumberOfGuests() {
+		return numberOfGuests;
+	}
+public int getNumberOfNights() {
+	return numberOfNights;
+}
 }
