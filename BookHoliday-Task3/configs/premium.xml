@@ -5,14 +5,14 @@
 	<feature manual="selected" name="SearchFlight"/>
 	<feature manual="selected" name="ReserveTicket"/>
 	<feature manual="selected" name="RegisterUser"/>
-	<feature automatic="selected" name="Payment"/>
-	<feature name="ValidateCreditCard"/>
-	<feature automatic="selected" manual="selected" name="Security"/>
-	<feature automatic="unselected" name="Highsec"/>
-	<feature manual="selected" name="Lowsec"/>
-	<feature name="BookHotel"/>
-	<feature name="SearchHotel"/>
-	<feature name="ReserveRoom"/>
+	<feature automatic="selected" manual="selected" name="Payment"/>
+	<feature manual="selected" name="ValidateCreditCard"/>
+	<feature automatic="selected" name="Security"/>
+	<feature manual="selected" name="Highsec"/>
+	<feature automatic="unselected" name="Lowsec"/>
+	<feature automatic="selected" name="BookHotel"/>
+	<feature manual="selected" name="SearchHotel"/>
+	<feature manual="selected" name="ReserveRoom"/>
 	<feature name="AddService"/>
 	<feature name="RentCar"/>
 	<feature name="SearchCar"/>

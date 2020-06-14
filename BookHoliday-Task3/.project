@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-	<name>BookHoliday-Task3</name>
+	<name>BookHoliday-Task2</name>
 	<comment></comment>
 	<projects>
 	</projects>
@@ -14,7 +14,7 @@
 				</dictionary>
 				<dictionary>
 					<key>composer</key>
-					<value>de.ovgu.featureide.preprocessor.antenna</value>
+					<value>de.ovgu.featureide.core.composer.runtime</value>
 				</dictionary>
 				<dictionary>
 					<key>equations</key>

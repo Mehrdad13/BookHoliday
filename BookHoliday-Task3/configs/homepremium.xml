@@ -8,8 +8,8 @@
 	<feature automatic="selected" name="Payment"/>
 	<feature name="ValidateCreditCard"/>
 	<feature automatic="selected" manual="selected" name="Security"/>
-	<feature automatic="unselected" name="Highsec"/>
-	<feature manual="selected" name="Lowsec"/>
+	<feature manual="selected" name="Highsec"/>
+	<feature automatic="unselected" name="Lowsec"/>
 	<feature name="BookHotel"/>
 	<feature name="SearchHotel"/>
 	<feature name="ReserveRoom"/>
