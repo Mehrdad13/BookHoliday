@@ -34,12 +34,12 @@
 					</alt>
 				</and>
 			</or>
-			<or abstract="true" name="BookHotel">
+			<or name="BookHotel">
 				<description>der Benutzer sucht nach den Zimmer dann buchen passendes Zimmer</description>
-				<feature abstract="true" name="SearchHotel">
+				<feature name="SearchHotel">
 					<description>Der Benutzer sucht nach einen Zimmer in Zielstadt</description>
 				</feature>
-				<feature abstract="true" name="ReserveRoom">
+				<feature name="ReserveRoom">
 					<description>der Benutzer bucht passendes Zimmer</description>
 				</feature>
 			</or>

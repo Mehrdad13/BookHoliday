@@ -2,6 +2,7 @@ package properties;
 
 
 import Feature.SearchFlight;
+import Feature.SerachHotel;
 
 
 public class main {
@@ -12,7 +13,8 @@ public class main {
 		
 		//#if BookFlight
 
-		SearchFlight sf= new SearchFlight();
+		//SearchFlight sf= new SearchFlight();
+		SerachHotel sh=new SerachHotel();
 	
 		//#endif
 //		if(PropertyManager.getProperty("RegisterUser")){

@@ -1,6 +1,6 @@
 package Feature; 
 
-import Feature.SearchFlight;
+
 import javax.swing.*; 
   import java.awt.*; 
   import java.awt.event.*; 
@@ -24,6 +24,7 @@ import javax.swing.*;
       private JComboBox date; 
       private JComboBox month; 
       private JComboBox year; 
+     
       private JLabel add; 
       private JTextArea tadd; 
       private JCheckBox term; 
