@@ -35,7 +35,7 @@ public class SerachHotel {
         
         //#if ReserveRoom
       
-        ReserveTicket rt=new ReserveTicket();
+        ReserveRoom rt=new ReserveRoom();
         //#elif !ReserveRoom
 //@        System.out.println("no access to Book Room");
         //#endif

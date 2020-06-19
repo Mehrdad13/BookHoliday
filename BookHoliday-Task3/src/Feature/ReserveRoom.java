@@ -1,11 +1,12 @@
 package Feature;
 
-public class ReserveTicket {
+public class ReserveRoom {
 
 	
-public ReserveTicket() {
+public ReserveRoom() {
 	
 SerachHotel sh=new SerachHotel();
+
 
 
 
