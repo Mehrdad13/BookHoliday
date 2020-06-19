@@ -13,8 +13,8 @@ public class main {
 		
 		//#if BookFlight
 
-		//SearchFlight sf= new SearchFlight();
-		SerachHotel sh=new SerachHotel();
+		SearchFlight sf= new SearchFlight();
+		
 	
 		//#endif
 //		if(PropertyManager.getProperty("RegisterUser")){
