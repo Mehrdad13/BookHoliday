@@ -2,10 +2,7 @@ package properties;
 
 
 import Feature.SearchFlight;
-import Feature.SerachHotel;
-import Feature.MyFrame;
-import properties.PropertyManager;
-import java.io.IOException;
+
 
 public class main {
 
