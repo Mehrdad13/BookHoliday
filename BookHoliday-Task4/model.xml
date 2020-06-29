@@ -43,14 +43,14 @@
 					<description>der Benutzer bucht passendes Zimmer</description>
 				</feature>
 			</or>
-			<and abstract="true" name="AddService">
+			<and name="AddService">
 				<description>Rent Auto oder buchen verschidene Activity</description>
-				<and abstract="true" name="RentCar">
+				<and name="RentCar">
 					<description>Der Benutzer mietet ein Auto</description>
-					<feature abstract="true" name="SearchCar">
+					<feature name="SearchCar">
 						<description>Der Benutzer suche nach dem Auto</description>
 					</feature>
-					<feature abstract="true" name="DoRentCar">
+					<feature name="DoRentCar">
 						<description>passendes Auto wird gemietet</description>
 					</feature>
 				</and>
