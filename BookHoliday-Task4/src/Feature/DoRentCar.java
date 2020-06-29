@@ -15,6 +15,7 @@ implements ActionListener {
 	  private JComboBox day;
 	  private JLabel name;
 	  private JLabel price;
+	  private JLabel finalPrice;
 	  private JButton finish; 
 	  private JButton back;
 	  private String days[] 
@@ -40,27 +41,27 @@ public DoRentCar(String Carname, String Price) {
 	      f.add(price); 
 		
 	      
-	      day = new JComboBox(days); 
-          day.setFont( new Font( "Arial" , Font.PLAIN, 15 )); 
-          day.setSize( 50 , 20 ); 
-          day.setLocation( 130 , 150 ); 
-          f.add(day); 
+//	      day = new JComboBox(days); 
+//          day.setFont( new Font( "Arial" , Font.PLAIN, 15 )); 
+//          day.setSize( 50 , 20 ); 
+//          day.setLocation( 130 , 150 ); 
+//          f.add(day); 
           
 
           finish = new JButton( "Finish" ); 
           finish.setFont( new Font( "Arial" , Font.PLAIN, 15 )); 
           finish.setSize( 100 , 20 ); 
-          finish.setLocation( 150 ,200); 
+          finish.setLocation( 150 ,300); 
           finish.addActionListener( this ); 
-         f.add(finish); 
+          f.add(finish); 
          
 
          back = new JButton( "back" ); 
          back.setFont( new Font( "Arial" , Font.PLAIN, 15 )); 
          back.setSize( 100 , 20 ); 
-         back.setLocation( 50 ,200 ); 
+         back.setLocation( 30 ,300 ); 
          back.addActionListener( this ); 
-        f.add(back); 
+         f.add(back); 
          
 		  f.setVisible(true); 
 	}
@@ -73,6 +74,12 @@ public DoRentCar(String Carname, String Price) {
 
 public void actionPerformed(ActionEvent e){
 	
+	if(e.getSource() == finish) {
+		 this.setVisible(false);
+	}else if(e.getSource() == back) {
+		 this.setVisible(false);
+		 new RentCar();
+	}
 
  }	
 }

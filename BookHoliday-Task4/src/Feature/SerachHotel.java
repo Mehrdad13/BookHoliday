@@ -218,15 +218,25 @@ public void actionPerformed(ActionEvent e) {
 			new SearchFlight();
       
    }else if (e.getSource() == ReserveRoom) { 
-//	 //#if ReserveRoom
-// //@	   res.setText("No Connection To Data Base");
-// //@	 //endif
-// //@	   
-//	 //#elif !ReserveRoom
-//	 			
-//	 		res.setText("no access to Reserve Room");
-//	 			
-//	 		   //#endif
+	   
+	   String data1
+       = "From "
+        + (String)date.getSelectedItem() 
+         + "/" + (String)month.getSelectedItem() 
+         + "/" + (String)year.getSelectedItem() 
+         + "\n" ; 
+	   
+	   String data2
+       = "TO "
+        + (String)date1.getSelectedItem() 
+         + "/" + (String)month1.getSelectedItem() 
+         + "/" + (String)year1.getSelectedItem() 
+         + "\n" ; 
+
+
+   this.setVisible(false);
+   new ReserveRoom(twhere.getText(), data1, data2);
+
    }
 }
 }

@@ -15,8 +15,8 @@ public class main {
 		
 	
 
-	//	SearchFlight sf= new SearchFlight();
-		new RentCar();	
+	SearchFlight sf= new SearchFlight();
+			
 		
 		
 

@@ -248,16 +248,14 @@ public class SearchFlight extends JFrame implements ActionListener {
 			
 			
 			
-//			//#if SearchHotel
-// //@			this.setVisible(false);
-// //@			dispose();
-// //@			new SerachHotel();
-// //@	 
-//		   //#elif !SearchHotel
-//			
-//			res.setText("no access to Search Hotel");
-//			
-//		   //#endif
+
+			this.setVisible(false);
+			dispose();
+			new SerachHotel();
+	 
+		
+
+
 		}
 		
 	}
