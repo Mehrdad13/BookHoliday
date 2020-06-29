@@ -93,29 +93,7 @@ public class SearchFlight extends JFrame implements ActionListener {
 		tto.setLocation(200, 150);
 		c.add(tto);
 
-//         gender = new JLabel( "Gender" ); 
-//         gender.setFont( new Font( "Arial" , Font.PLAIN, 20 )); 
-//         gender.setSize( 100 , 20 ); 
-//         gender.setLocation( 100 , 200 ); 
-//        c.add(gender); 
 
-//         male = new JRadioButton( "Male" ); 
-//         male.setFont( new Font( "Arial" , Font.PLAIN, 15 )); 
-//         male.setSelected( true ); 
-//         male.setSize( 75 , 20 ); 
-//         male.setLocation( 200 , 200 ); 
-//        c.add(male); 
-//
-//         female = new JRadioButton( "Female" ); 
-//         female.setFont( new Font( "Arial" , Font.PLAIN, 15 )); 
-//         female.setSelected( false ); 
-//         female.setSize( 80 , 20 ); 
-//         female.setLocation( 275 , 200 ); 
-//        c.add(female); 
-//
-//         gengp = new ButtonGroup(); 
-//        gengp.add(male); 
-//        gengp.add(female); 
 
 		Depart = new JLabel("Depart");
 		Depart.setFont(new Font("Arial", Font.PLAIN, 20));
@@ -157,12 +135,7 @@ public class SearchFlight extends JFrame implements ActionListener {
 		passenger.setLocation(250,300);
 		c.add(passenger);
 
-//        tpassenger = new JTextArea(); 
-//        tpassenger.setFont( new Font( "Arial" , Font.PLAIN, 15 )); 
-//        tpassenger.setSize( 200 , 75 ); 
-//        tpassenger.setLocation( 200 , 300 ); 
-//        tpassenger.setLineWrap( true ); 
-//        c.add(tpassenger); 
+
 
 		term = new JCheckBox("Accept Terms And Conditions.");
 		term.setFont(new Font("Arial", Font.PLAIN, 15));
@@ -275,16 +248,16 @@ public class SearchFlight extends JFrame implements ActionListener {
 			
 			
 			
-			//#if SearchHotel
-//@			this.setVisible(false);
-//@			dispose();
-//@			new SerachHotel();
-//@	 
-		   //#elif !SearchHotel
-			
-			res.setText("no access to Search Hotel");
-			
-		   //#endif
+//			//#if SearchHotel
+// //@			this.setVisible(false);
+// //@			dispose();
+// //@			new SerachHotel();
+// //@	 
+//		   //#elif !SearchHotel
+//			
+//			res.setText("no access to Search Hotel");
+//			
+//		   //#endif
 		}
 		
 	}

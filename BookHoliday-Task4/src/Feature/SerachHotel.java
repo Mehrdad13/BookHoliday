@@ -90,42 +90,7 @@ public class SerachHotel   extends JFrame implements ActionListener  {
           twhere.setSize( 190 , 20 ); 
           twhere.setLocation( 200 , 150 ); 
          c.add(twhere); 
- 
-//          mno = new JLabel( "Mobile" ); 
-//          mno.setFont( new Font( "Arial" , Font.PLAIN, 20 )); 
-//          mno.setSize( 100 , 20 ); 
-//          mno.setLocation( 100 , 150 ); 
-//         c.add(mno); 
- 
-//          tmno = new JTextField(); 
-//          tmno.setFont( new Font( "Arial" , Font.PLAIN, 15 )); 
-//          tmno.setSize( 150 , 20 ); 
-//          tmno.setLocation( 200 , 150 ); 
-//         c.add(tmno); 
- 
-//          gender = new JLabel( "Gender" ); 
-//          gender.setFont( new Font( "Arial" , Font.PLAIN, 20 )); 
-//          gender.setSize( 100 , 20 ); 
-//          gender.setLocation( 100 , 200 ); 
-//         c.add(gender); 
-// 
-//          male = new JRadioButton( "Male" ); 
-//          male.setFont( new Font( "Arial" , Font.PLAIN, 15 )); 
-//          male.setSelected( true ); 
-//          male.setSize( 75 , 20 ); 
-//          male.setLocation( 200 , 200 ); 
-//         c.add(male); 
- 
-//          female = new JRadioButton( "Female" ); 
-//          female.setFont( new Font( "Arial" , Font.PLAIN, 15 )); 
-//          female.setSelected( false ); 
-//          female.setSize( 80 , 20 ); 
-//          female.setLocation( 275 , 200 ); 
-//         c.add(female); 
- 
-//          gengp = new ButtonGroup(); 
-//         gengp.add(male); 
-//         gengp.add(female); 
+
  
           Checkin = new JLabel( "Check in" ); 
           Checkin.setFont( new Font( "Arial" , Font.PLAIN, 20 )); 
@@ -236,53 +201,10 @@ public class SerachHotel   extends JFrame implements ActionListener  {
  		c.add(ReserveRoom);
  
           setVisible( true ); 
-//		// TODO Auto-generated constructor stub
-//	
-//        System.out.println("SerachHotel");
-//        Scanner aScanner = new Scanner(System.in);
-//        System.out.println("To begin, please indicate how many people will be staying. ");
-//        numberOfGuests = aScanner.nextInt();
-//        System.out.println("Thank you. Now please tell us how long you plan on staying at our fine resort. ");
-//        numberOfNights = aScanner.nextInt();
-//        int singleRoom = numberOfGuests * 95 * numberOfNights;
-//        int doubleRoom = numberOfGuests * 80 * numberOfNights;
-//        int supplementalSingle = numberOfGuests * 65;
-//        int supplementalDouble = numberOfGuests * 50;
-//        if (numberOfNights <=2 && numberOfGuests == 1) {
-//                       System.out.println("For " + numberOfGuests + " guest staying for " +
-//                                          numberOfNights + " nights, it will cost " + "?" + singleRoom);
-//                      
-//        } 
-//        else if (numberOfNights <=2 && numberOfGuests >1) { 
-//                       System.out.println("For " + numberOfGuests + " guests staying for " + 
-//                                          numberOfNights + " nights, it will cost " + "?" + doubleRoom);
-//        }
-//        else if (numberOfNights >2 && numberOfGuests == 1) {
-//                       System.out.println("For " + numberOfGuests + " guest staying for " + 
-//                                          numberOfNights + " nights, it will cost " + "?"   );
-//        }
-//        
-//        
-//        
-//        //#if ReserveRoom
-//      
-//        ReserveRoom rt=new ReserveRoom();
-//   
-//        
-//        
-//        //#elif !ReserveRoom
-////@        System.out.println("no access to Book Room");
-//        //#endif
-//        
-//      
+ 
+     
     }
   
-//    public int getNumberOfGuests() {
-//		return numberOfGuests;
-//	}
-//public int getNumberOfNights() {
-//	return numberOfNights;
-//}
 
 @Override
 public void actionPerformed(ActionEvent e) {
@@ -296,15 +218,15 @@ public void actionPerformed(ActionEvent e) {
 			new SearchFlight();
       
    }else if (e.getSource() == ReserveRoom) { 
-	 //#if ReserveRoom
-//@	   res.setText("No Connection To Data Base");
-//@	 //endif
-//@	   
-	 //#elif !ReserveRoom
-	 			
-	 		res.setText("no access to Reserve Room");
-	 			
-	 		   //#endif
+//	 //#if ReserveRoom
+// //@	   res.setText("No Connection To Data Base");
+// //@	 //endif
+// //@	   
+//	 //#elif !ReserveRoom
+//	 			
+//	 		res.setText("no access to Reserve Room");
+//	 			
+//	 		   //#endif
    }
 }
 }

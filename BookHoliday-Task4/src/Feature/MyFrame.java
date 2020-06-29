@@ -265,8 +265,7 @@ import javax.swing.*;
  			
  			this.setVisible(false);
  				new SearchFlight();
-// 				dispose();
-// 				System.exit(0);
+
  			
  			
  		} 
