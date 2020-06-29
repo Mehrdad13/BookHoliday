@@ -17,17 +17,7 @@ public class main {
 		
 	
 		//#endif
-//		if(PropertyManager.getProperty("RegisterUser")){
-//			
-//			MyFrame registerUser= new MyFrame();
-//			
-//		}
-//		if (PropertyManager.getProperty("BookFlight")) {
-//			
-//			SearchFlight sf= new SearchFlight();
-//			
-//											
-//		}
+
 
 	
 
