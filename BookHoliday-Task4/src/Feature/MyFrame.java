@@ -191,7 +191,7 @@ import javax.swing.*;
           res.setFont( new Font( "Arial" , Font.PLAIN, 20 )); 
           res.setSize( 500 , 25 ); 
           res.setLocation( 100 , 500 ); 
-         c.add(res); 
+          c.add(res); 
  
           resadd = new JTextArea(); 
           resadd.setFont( new Font( "Arial" , Font.PLAIN, 15 )); 

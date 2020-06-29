@@ -17,8 +17,11 @@ import javax.swing.event.*;
 public class RentCar 
 extends JFrame 
 implements ActionListener {
-
+	
+	
+	 
 String CarID;
+String price;
 JFrame f = new JFrame("Select Car");  
 private JLabel name; 
 private JTextField tname; 
@@ -71,6 +74,7 @@ public void valueChanged(ListSelectionEvent e) {
 int column = 1;
 int row = jt.getSelectedRow();
 CarID = jt.getModel().getValueAt(row, column).toString();
+price=jt.getModel().getValueAt(row, 2).toString();
 tname.setText(CarID);
 
 }       
@@ -84,14 +88,14 @@ f.setVisible(true);
 	
 public void actionPerformed(ActionEvent e){
 	if(e.getSource() == DoRentCar) {
-	
-			new DoRentCar();
+		this.setVisible(false);
+			new DoRentCar(CarID,price);
 
 		
 			
 }else if(e.getSource() == Register) {
 		
-		this.setVisible(false);
+	
 		new MyFrame();
 		
 	}
