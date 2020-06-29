@@ -1,4 +1,4 @@
-package Feature;
+package Feature.ReserveRoom.src;
 
 import java.awt.Font;
 import java.awt.event.ActionEvent;
@@ -8,6 +8,8 @@ import javax.swing.JButton;
 import javax.swing.JComboBox;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
+
+import Feature.SearchHotel.src.SerachHotel;
 
 public class ReserveRoom extends JFrame 
 implements ActionListener {

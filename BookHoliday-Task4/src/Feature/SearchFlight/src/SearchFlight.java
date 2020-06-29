@@ -1,4 +1,4 @@
-package Feature;
+package Feature.SearchFlight.src;
 
 import java.awt.Container;
 import java.awt.Font;
@@ -13,6 +13,7 @@ import javax.swing.JLabel;
 import javax.swing.JTextArea;
 import javax.swing.JTextField;
 
+import Feature.SearchHotel.src.SerachHotel;
 import properties.PropertyManager;
 
 public class SearchFlight extends JFrame implements ActionListener {

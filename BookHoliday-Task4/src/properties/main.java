@@ -1,10 +1,10 @@
 package properties;
 
 
-import Feature.SearchFlight;
-import Feature.RentCar;
-import Feature.SerachHotel;
-import Feature.DoRentCar;
+import Feature.DoRentCar.src.DoRentCar;
+import Feature.SearchCar.src.RentCar;
+import Feature.SearchFlight.src.SearchFlight;
+import Feature.SearchHotel.src.SerachHotel;
 
 
 public class main {

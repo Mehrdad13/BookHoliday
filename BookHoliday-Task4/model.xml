@@ -11,7 +11,7 @@
 	</properties>
 	<struct>
 		<or abstract="true" mandatory="true" name="bookHoliday">
-			<or name="BookFlight">
+			<or abstract="true" name="BookFlight">
 				<description>suchen nach den Flugticket dann buchen passende Ticekt</description>
 				<feature name="SearchFlight">
 					<description>
@@ -34,7 +34,7 @@
 					</alt>
 				</and>
 			</or>
-			<or name="BookHotel">
+			<or abstract="true" name="BookHotel">
 				<description>der Benutzer sucht nach den Zimmer dann buchen passendes Zimmer</description>
 				<feature name="SearchHotel">
 					<description>Der Benutzer sucht nach einen Zimmer in Zielstadt</description>
@@ -43,9 +43,9 @@
 					<description>der Benutzer bucht passendes Zimmer</description>
 				</feature>
 			</or>
-			<and name="AddService">
+			<and abstract="true" name="AddService">
 				<description>Rent Auto oder buchen verschidene Activity</description>
-				<and name="RentCar">
+				<and abstract="true" name="RentCar">
 					<description>Der Benutzer mietet ein Auto</description>
 					<feature name="SearchCar">
 						<description>Der Benutzer suche nach dem Auto</description>
