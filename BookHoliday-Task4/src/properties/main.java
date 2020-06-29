@@ -2,6 +2,7 @@ package properties;
 
 
 import Feature.SearchFlight;
+import Feature.RentCar;
 import Feature.SerachHotel;
 
 
@@ -13,13 +14,8 @@ public class main {
 		
 	
 
-		SearchFlight sf= new SearchFlight();
-		
-	
-	
-	
-
-	
+	//	SearchFlight sf= new SearchFlight();
+		new RentCar();	
 		
 		
 
