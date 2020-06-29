@@ -9,6 +9,8 @@ import javax.swing.JComboBox;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
 
+import Feature.SearchCar.src.RentCar;
+
 public class DoRentCar extends JFrame 
 implements ActionListener {
 	
