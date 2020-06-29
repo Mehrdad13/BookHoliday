@@ -1,4 +1,6 @@
 package Feature.SearchCar.src;
+
+
 import java.awt.Font;
 import javax.swing.*; 
 import java.awt.*; 
@@ -107,9 +109,6 @@ public void actionPerformed(ActionEvent e){
 
 
 
-public String getCarID() {
-	    return CarID;
-	  }
  
 		
 }
