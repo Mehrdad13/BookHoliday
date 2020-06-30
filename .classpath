@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="BookHoliday-Task2/src"/>
+	<classpathentry kind="src" path="BookHoliday-Task3/src"/>
+	<classpathentry kind="src" path="Task4/features/DoRentCar/src"/>
+	<classpathentry kind="src" path="Task4/features/RegisterUser/src"/>
+	<classpathentry kind="src" path="Task4/features/ReserveRoom/src"/>
+	<classpathentry kind="src" path="Task4/features/SearchCar/src"/>
+	<classpathentry kind="src" path="Task4/features/SearchFlight/src"/>
+	<classpathentry kind="src" path="Task4/features/SearchHotel/src"/>
+	<classpathentry kind="src" path="Task4/src"/>
+	<classpathentry kind="lib" path="BookHoliday-Task3/lib/BookFlight.jar"/>
+	<classpathentry kind="lib" path="BookHoliday-Task3/lib/RegisterUser.jar"/>
+	<classpathentry kind="lib" path="BookHoliday-Task3/lib/SearchFlight.jar"/>
+	<classpathentry kind="lib" path="Task4/lib/DoRentCar.jar"/>
+	<classpathentry kind="lib" path="Task4/lib/RegisterUser.jar"/>
+	<classpathentry kind="lib" path="Task4/lib/ReserveRoom.jar"/>
+	<classpathentry kind="lib" path="Task4/lib/SearchCar.jar"/>
+	<classpathentry kind="lib" path="Task4/lib/SearchFlight.jar"/>
+	<classpathentry kind="lib" path="Task4/lib/SearchHotel.jar"/>
+	<classpathentry kind="output" path="BookHoliday-Task3/bin"/>
+</classpath>
