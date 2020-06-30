@@ -1,4 +1,4 @@
-package Feature.SearchFlight.src;
+package Feature.SearchFlight.src.Feature.SearchFlight.src;
 
 
 
@@ -16,7 +16,7 @@ import javax.swing.JTextArea;
 import javax.swing.JTextField;
 
 import Feature.RegisterUser.src.MyFrame;
-import Feature.SearchHotel.src.SerachHotel;
+import Feature.SearchHotel.src.Feature.SearchHotel.src.SerachHotel;
 
 
 public class SearchFlight extends JFrame implements ActionListener {

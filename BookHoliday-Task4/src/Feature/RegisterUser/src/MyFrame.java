@@ -1,11 +1,9 @@
-package Feature.RegisterUser.src;
-
 
 
 
 import javax.swing.*;
 
-import Feature.SearchFlight.src.SearchFlight;
+import Feature.SearchFlight.src.Feature.src.SearchFlight;
 
 import java.awt.*; 
   import java.awt.event.*; 

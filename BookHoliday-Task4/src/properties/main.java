@@ -14,10 +14,10 @@ public class main {
 		System.out.println("Welcome to Book Holiday System");
 		
 	
-
-	SearchFlight sf= new SearchFlight();
-			
-		
+//
+//	     SerachHotel sf= new SerachHotel();
+//		  RentCar rc=new RentCar();
+//		
 		
 
 	}

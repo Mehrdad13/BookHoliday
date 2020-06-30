@@ -1,4 +1,6 @@
-package Feature.SearchHotel.src;
+package Feature.SearchHotel.src.Feature.SearchHotel.src;
+
+
 
 
 import java.awt.Container;
@@ -18,7 +20,7 @@ import javax.swing.JRadioButton;
 import javax.swing.JTextArea;
 import javax.swing.JTextField;
 
-import Feature.SearchFlight.src.SearchFlight;
+import Feature.SearchFlight.src.Feature.SearchFlight.src.SearchFlight;
 import Feature.ReserveRoom.src.ReserveRoom;
 
 public class SerachHotel   extends JFrame implements ActionListener  {
