@@ -1,41 +1,60 @@
-import java.awt.Container; 
-import java.awt.Font; 
-import java.awt.event.ActionEvent; 
-import java.awt.event.ActionListener; 
+import java.awt.Container;  
+import java.awt.Font;  
+import java.awt.event.ActionEvent;  
+import java.awt.event.ActionListener;  
 
-import javax.swing.JButton; 
-import javax.swing.JFrame; 
-import javax.swing.JLabel; 
+import javax.swing.JButton;  
+import javax.swing.JFrame;  
+import javax.swing.JLabel;  
 
-public  class  ReserveRoom   extends JFrame  implements ActionListener {
+public   class   ReserveRoom    extends JFrame   implements ActionListener {
+	
 	
 	
 	private Container f;
 
 	
+
+	
 	private JLabel wh;
+
+	
 
 	
 	private JLabel in1;
 
 	
+
+	
 	private JLabel out1;
+
+	
 
 	
 	private JButton sub;
 
 	
+
+	
 	private JButton cancel;
+
+	
 
 	
 	
 	String where1;
 
 	
+
+	
 	String CheckIn;
 
 	
+
+	
 	String CheckOut;
+
+	
 
 	
 	
@@ -91,6 +110,8 @@ public  class  ReserveRoom   extends JFrame  implements ActionListener {
 
 	
 
+	
+
 	@Override
 	public void actionPerformed(ActionEvent e) {
 		
@@ -108,6 +129,8 @@ public  class  ReserveRoom   extends JFrame  implements ActionListener {
 	}
 
 	
+
+	
 	
 	
 public String getCheckIn() {
@@ -115,9 +138,13 @@ public String getCheckIn() {
 }
 
 	
+
+	
 public String getCheckOut() {
 	return CheckOut;
 }
+
+	
 
 	
 public String getWhere1() {
