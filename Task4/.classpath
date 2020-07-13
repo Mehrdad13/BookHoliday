@@ -6,11 +6,7 @@
 			<attribute name="module" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="lib/DoRentCar.jar"/>
 	<classpathentry kind="lib" path="lib/RegisterUser.jar"/>
-	<classpathentry kind="lib" path="lib/ReserveRoom.jar"/>
-	<classpathentry kind="lib" path="lib/SearchCar.jar"/>
 	<classpathentry kind="lib" path="lib/SearchFlight.jar"/>
-	<classpathentry kind="lib" path="lib/SearchHotel.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
