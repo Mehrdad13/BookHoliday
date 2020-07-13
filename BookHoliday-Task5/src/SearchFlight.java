@@ -153,7 +153,7 @@ public    class    SearchFlight  extends JFrame    implements ActionListener {
 
 	
 
-	private JButton ReserveRoom;
+	private JButton ReserveTicket;
 
 	
 
@@ -334,12 +334,12 @@ public    class    SearchFlight  extends JFrame    implements ActionListener {
 		SHotel.addActionListener(this);
 		c.add(SHotel);
 		
-		ReserveRoom = new JButton("ReserveRoom");
-		ReserveRoom.setFont(new Font("Arial", Font.PLAIN, 15));
-		ReserveRoom.setSize(120, 20);
-		ReserveRoom.setLocation(400, 50);
-		ReserveRoom.addActionListener(this);
-		c.add(ReserveRoom);
+		ReserveTicket = new JButton("ReserveTicket");
+		ReserveTicket.setFont(new Font("Arial", Font.PLAIN, 15));
+		ReserveTicket.setSize(120, 20);
+		ReserveTicket.setLocation(400, 50);
+		ReserveTicket.addActionListener(this);
+		c.add(ReserveTicket);
 		
 
 		tout = new JTextArea();
@@ -436,6 +436,12 @@ public    class    SearchFlight  extends JFrame    implements ActionListener {
 		
 
 
+		}else if(e.getSource()==ReserveTicket) {
+			
+			String depart = (String) date.getSelectedItem() + "/" + (String) month.getSelectedItem()
+			+ "/" + (String) year.getSelectedItem() + "\n";
+			
+			new ReserveTicket(tfrom.getText(), tto.getText(), depart);
 		}
 		
 		
