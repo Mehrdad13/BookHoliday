@@ -15,7 +15,7 @@ import javax.swing.JTextField;
 
 
 
-public class SearchHotel   extends JFrame implements ActionListener, interfaces.ISearchHotel  {
+public class SearchHotel   extends JFrame implements ActionListener {
 
 
 	
@@ -223,7 +223,7 @@ public void actionPerformed(ActionEvent e) {
 		res.setText("No Connection To Data Base");
 	}else if (e.getSource() == reset) { 
 		this.setVisible(false);
-//			new SearchFlight();
+		new SearchFlight();
       
    }else if (e.getSource() == ReserveRoom) { 
 	   
@@ -243,7 +243,7 @@ public void actionPerformed(ActionEvent e) {
 
 	   reserveroom= true;
        this.setVisible(false);
-//    new ReserveRoom(twhere.getText(), data1, data2);
+   new ReserveRoom(twhere.getText(), data1, data2);
 
    }
 }
