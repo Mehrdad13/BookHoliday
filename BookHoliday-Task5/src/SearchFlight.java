@@ -323,21 +323,21 @@ public    class    SearchFlight  extends JFrame    implements ActionListener {
 		RegisterUser = new JButton("Register");
 		RegisterUser.setFont(new Font("Arial", Font.PLAIN, 15));
 		RegisterUser.setSize(120, 20);
-		RegisterUser.setLocation(650, 50);
+		RegisterUser.setLocation(760, 50);
 		RegisterUser.addActionListener(this);
 		c.add(RegisterUser);
 		
 		SHotel = new JButton("Serach Hotel");
 		SHotel.setFont(new Font("Arial", Font.PLAIN, 15));
-		SHotel.setSize(120, 20);
-		SHotel.setLocation(500, 50);
+		SHotel.setSize(140, 20);
+		SHotel.setLocation(620, 50);
 		SHotel.addActionListener(this);
 		c.add(SHotel);
 		
 		ReserveTicket = new JButton("ReserveTicket");
 		ReserveTicket.setFont(new Font("Arial", Font.PLAIN, 15));
 		ReserveTicket.setSize(120, 20);
-		ReserveTicket.setLocation(400, 50);
+		ReserveTicket.setLocation(500, 50);
 		ReserveTicket.addActionListener(this);
 		c.add(ReserveTicket);
 		
